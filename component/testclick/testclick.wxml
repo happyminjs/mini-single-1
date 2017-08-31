@@ -1,0 +1,6 @@
+<template name="testclick">
+  <text>啦啦啦啦啦了</text>
+  <view wx:for="{{arrays}}" bindtap="click1" data-iid="{{index}}" data-mkey="{{mkey}}">
+    {{index}}: {{arrays[index]}}
+  </view>
+</template> 
